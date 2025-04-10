@@ -292,6 +292,18 @@
             text-decoration: none;
             font-size: 1.2rem;
         }
+
+        .ikigai-container {
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .ikigai-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
         
         @media screen and (max-width: 768px) {
             .nav-links {
@@ -369,45 +381,73 @@
             <h2>Activitat 1: Descoberta d'un mateix</h2>
             
             <div class="card">
-                <h3>Qui sóc jo?</h3>
-                <p>Aquí pots escriure un resum de la teva reflexió personal després del taller "Qui sóc jo?" de l'oficina jove. Explica els aspectes més rellevants de la teva personalitat, els teus valors i allò que et defineix.</p>
-            </div>
-            
-            <div class="card">
                 <h3>Test de personalitat vocacional ikigai</h3>
-                <p>Inclou els resultats del test i la teva interpretació d'aquests resultats. Explica com aquests resultats reflecteixen els teus interessos i com es relacionen amb el teu futur professional.</p>
+                <p>Els resultats del test indiquen una inclinació clara cap a activitats relacionades amb la tecnologia i el treball pràctic.</p>
+                
+                <div class="ikigai-container">
+                    <img src="/api/placeholder/600/600" alt="Ikigai Test de Personalitat Vocacional" class="ikigai-img">
+                </div>
                 
                 <div class="grid-container">
                     <div class="grid-item">
-                        <h4>El que m'agrada</h4>
+                        <h4>La meva missió</h4>
+                        <p>Treballar amb números, documents, registres o màquines de manera predictible, fixa i ordenada.</p>
+                    </div>
+                    <div class="grid-item">
+                        <h4>La meva passió</h4>
+                        <p>Interactuar amb animals o màquines usant les meves mans o eines.</p>
+                    </div>
+                    <div class="grid-item">
+                        <h4>La meva vocació</h4>
+                        <p>Ser amable i assegurar-me que tots es portin bé en un projecte.</p>
+                    </div>
+                    <div class="grid-item">
+                        <h4>La meva professió</h4>
+                        <p>Ser creatiu i trobar noves formes de resoldre problemes.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>Resultats del qüestionari</h3>
+                <p>D'acord amb el qüestionari, el meu grup ocupacional principal és:</p>
+                
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <h4>Activitats agropecuàries, alimentació, pesca i mineria</h4>
+                        <div class="progress-container">
+                            <div class="progress-bar" style="width: 67%">67%</div>
+                        </div>
+                        <p>Professions relacionades amb el treball al camp, la ramaderia, la pesca i la mineria.</p>
+                    </div>
+                    <div class="grid-item">
+                        <h4>Àrees formatives recomanades</h4>
                         <ul>
-                            <li>Element 1</li>
-                            <li>Element 2</li>
-                            <li>Element 3</li>
+                            <li>Agricultura, jardineria i mineralogia</li>
+                            <li>Indústries gràfiques, fusta i tèxtil</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <h4>Formació Professional</h4>
+                        <ul>
+                            <li>De grau mitjà</li>
+                            <li>De grau superior</li>
                         </ul>
                     </div>
                     <div class="grid-item">
-                        <h4>En el que sóc bo/bona</h4>
+                        <h4>Estudis universitaris</h4>
                         <ul>
-                            <li>Element 1</li>
-                            <li>Element 2</li>
-                            <li>Element 3</li>
+                            <li>Carreres universitàries</li>
+                            <li>Màsters, postgraus i doctorats</li>
                         </ul>
                     </div>
                     <div class="grid-item">
-                        <h4>El que el món necessita</h4>
+                        <h4>Estudis no reglats</h4>
                         <ul>
-                            <li>Element 1</li>
-                            <li>Element 2</li>
-                            <li>Element 3</li>
-                        </ul>
-                    </div>
-                    <div class="grid-item">
-                        <h4>Pel que em poden pagar</h4>
-                        <ul>
-                            <li>Element 1</li>
-                            <li>Element 2</li>
-                            <li>Element 3</li>
+                            <li>Cursos</li>
                         </ul>
                     </div>
                 </div>
@@ -415,28 +455,28 @@
             
             <div class="card">
                 <h3>Competències professionals i capacitats clau</h3>
-                <p>Analitza les teves competències professionals i capacitats clau. Indica el nivell de desenvolupament que consideres que tens en cadascuna i justifica-ho amb exemples concrets.</p>
+                <p>Basant-me en l'anàlisi de les meves aptituds i el test d'orientació:</p>
                 
                 <h4>Competències professionals</h4>
                 <div class="progress-container">
-                    <div class="progress-bar" style="width: 85%">Treball en equip (85%)</div>
+                    <div class="progress-bar" style="width: 85%">Treball tècnic (85%)</div>
                 </div>
                 <div class="progress-container">
-                    <div class="progress-bar" style="width: 70%">Comunicació (70%)</div>
+                    <div class="progress-bar" style="width: 75%">Capacitat analítica (75%)</div>
                 </div>
                 <div class="progress-container">
-                    <div class="progress-bar" style="width: 90%">Resolució de problemes (90%)</div>
+                    <div class="progress-bar" style="width: 80%">Resolució de problemes tècnics (80%)</div>
                 </div>
                 
                 <h4>Capacitats clau</h4>
                 <div class="progress-container">
-                    <div class="progress-bar" style="width: 80%">Adaptabilitat (80%)</div>
+                    <div class="progress-bar" style="width: 85%">Habilitats manuals (85%)</div>
                 </div>
                 <div class="progress-container">
-                    <div class="progress-bar" style="width: 65%">Lideratge (65%)</div>
+                    <div class="progress-bar" style="width: 70%">Organització (70%)</div>
                 </div>
                 <div class="progress-container">
-                    <div class="progress-bar" style="width: 75%">Creativitat (75%)</div>
+                    <div class="progress-bar" style="width: 90%">Precisió i detall (90%)</div>
                 </div>
             </div>
             
@@ -446,33 +486,33 @@
                     <div class="grid-item">
                         <h4>Debilitats</h4>
                         <ul>
-                            <li>Debilitat 1</li>
-                            <li>Debilitat 2</li>
-                            <li>Debilitat 3</li>
+                            <li>Poca experiència laboral en el sector</li>
+                            <li>Necessito millorar idiomes</li>
+                            <li>Em costa treballar sota pressió</li>
                         </ul>
                     </div>
                     <div class="grid-item">
                         <h4>Amenaces</h4>
                         <ul>
-                            <li>Amenaça 1</li>
-                            <li>Amenaça 2</li>
-                            <li>Amenaça 3</li>
+                            <li>Alta competència en el sector tecnològic</li>
+                            <li>Evolució constant de les tecnologies</li>
+                            <li>Necessitat d'actualització permanent</li>
                         </ul>
                     </div>
                     <div class="grid-item">
                         <h4>Fortaleses</h4>
                         <ul>
-                            <li>Fortalesa 1</li>
-                            <li>Fortalesa 2</li>
-                            <li>Fortalesa 3</li>
+                            <li>Bona capacitat tècnica</li>
+                            <li>Facilitat per aprendre</li>
+                            <li>Interès genuí per la tecnologia</li>
                         </ul>
                     </div>
                     <div class="grid-item">
                         <h4>Oportunitats</h4>
                         <ul>
-                            <li>Oportunitat 1</li>
-                            <li>Oportunitat 2</li>
-                            <li>Oportunitat 3</li>
+                            <li>Sector amb gran demanda laboral</li>
+                            <li>Possibilitats d'especialització</li>
+                            <li>Versatilitat en diferents industries</li>
                         </ul>
                     </div>
                 </div>
@@ -483,78 +523,48 @@
             <h2>Activitat 2: Especialització professional</h2>
             
             <div class="card">
-                <h3>2.1 Àmbits d'interès</h3>
+                <h3>2.1 Àmbits d'interès: Enginyeries</h3>
+                <p>No hi ha dubte que et mou la tecnologia i que sempre intentes pensar i repensar com funcionen les coses! T'has imaginat mai com seria aportar el teu granet de sorra a la innovació tecnològica?</p>
                 
-                <h4>Autoavaluació</h4>
-                <p>Resultats dels testos d'orientació professional i la seva relació amb el descobriment personal de l'activitat 1.</p>
+                <p>Potser et pot agradar més el grau en Enginyeria Mecatrònica, que combina les disciplines de robòtica, mecànica, electrònica, control, automàtica i programació! És una enginyeria que ho té tot!</p>
                 
-                <h4>Valoració dels resultats del MP</h4>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Àmbit</th>
-                            <th>Recursos Humans</th>
-                            <th>Comptabilitat i Fiscalitat</th>
-                            <th>Processos Comercials</th>
-                            <th>Atenció al Client</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>MP</td>
-                            <td>MP1</td>
-                            <td>MP2</td>
-                            <td>MP3</td>
-                            <td>MP4</td>
-                        </tr>
-                        <tr>
-                            <td>Nota</td>
-                            <td>8.5</td>
-                            <td>7.0</td>
-                            <td>9.0</td>
-                            <td>8.0</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <p>Et mou més el motor i el disseny? Doncs així, ets perfecte per fer el grau en Enginyeria de l'Automoció!</p>
                 
-                <h4>Preferències personals</h4>
-                <div class="grid-container">
-                    <div class="grid-item">
-                        <h5>A on vull ser el curs vinent?</h5>
-                        <p>Descriu aquí els teus objectius a curt termini.</p>
-                    </div>
-                    <div class="grid-item">
-                        <h5>I d'aquí a cinc anys?</h5>
-                        <p>Descriu aquí els teus objectius a mitjà termini.</p>
-                    </div>
-                    <div class="grid-item">
-                        <h5>I d'aquí a deu anys?</h5>
-                        <p>Descriu aquí els teus objectius a llarg termini.</p>
-                    </div>
-                </div>
+                <p>Per últim... no ens oblidem dels "gamers" ni dels fans de la programació! Que sàpigues que el món de les apps multiplataforma i dels videojocs és un dels que té més futur professional actualment! Si t'agrada programar i la informàtica, descobreix el grau en Multimèdia, Aplicacions i Videojocs!</p>
+                
+                <p>Prefereixes estudiar un cicle? Tria el de Desenvolupament d'Aplicacions Multiplataforma si t'agrada la informàtica més pura o el d'Animació 3D, Jocs i Entorns Interactius si prefereixes la creació digital i multimèdia més immersiva.</p>
             </div>
             
             <div class="card">
                 <h3>2.2 Àmbit de coneixement</h3>
-                <p>Unitats de competència relacionades amb la teva especialització escollida.</p>
+                <p>Basant-me en els meus interessos pel camp de l'enginyeria i la tecnologia, aquestes són les opcions formatives més adequades:</p>
                 
                 <table>
                     <thead>
                         <tr>
-                            <th>Cicle Formatiu</th>
-                            <th>Mòdul Professional</th>
-                            <th>Unitat de Competència</th>
+                            <th>Cicle Formatiu / Grau</th>
+                            <th>Mòdul Professional / Assignatures</th>
+                            <th>Unitat de Competència / Sortides</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td rowspan="2">Nom del cicle</td>
-                            <td>MP1: Nom del mòdul</td>
-                            <td>UC1: Codi i descripció</td>
+                            <td rowspan="2">Enginyeria Mecatrònica</td>
+                            <td>Robòtica i automatització</td>
+                            <td>Disseny i manteniment de sistemes automàtics</td>
                         </tr>
                         <tr>
-                            <td>MP2: Nom del mòdul</td>
-                            <td>UC2: Codi i descripció</td>
+                            <td>Electrònica i control</td>
+                            <td>Programació de sistemes electrònics</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">Desenvolupament d'Aplicacions Multiplataforma</td>
+                            <td>Programació</td>
+                            <td>Desenvolupament d'aplicacions informàtiques</td>
+                        </tr>
+                        <tr>
+                            <td>Bases de dades</td>
+                            <td>Gestió i administració de bases de dades</td>
                         </tr>
                     </tbody>
                 </table>
@@ -566,268 +576,62 @@
                     <div class="grid-item">
                         <h4>Tasques</h4>
                         <ul>
-                            <li>Tasca 1</li>
-                            <li>Tasca 2</li>
-                            <li>Tasca 3</li>
+                            <li>Disseny i construcció de components</li>
+                            <li>Programació de sistemes electrònics</li>
+                            <li>Resolució de problemes tècnics</li>
+                            <li>Manteniment de sistemes automàtics</li>
                         </ul>
                     </div>
                     <div class="grid-item">
                         <h4>Competències</h4>
                         <ul>
-                            <li>Competència 1</li>
-                            <li>Competència 2</li>
-                            <li>Competència 3</li>
+                            <li>Coneixement d'electrònica</li>
+                            <li>Programació informàtica</li>
+                            <li>Disseny mecànic</li>
+                            <li>Automatització industrial</li>
                         </ul>
                     </div>
                     <div class="grid-item">
                         <h4>Capacitats clau</h4>
                         <ul>
-                            <li>Capacitat 1</li>
-                            <li>Capacitat 2</li>
-                            <li>Capacitat 3</li>
+                            <li>Precisió i meticulositat</li>
+                            <li>Creativitat tècnica</li>
+                            <li>Resolució de problemes</li>
+                            <li>Organització</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
-        
-        <section id="empreses">
-            <h2>Activitat 3: Empreses de l'especialització</h2>
-            
-            <div class="card">
-                <h3>Anàlisi d'ofertes de feina</h3>
-                <p>Resum dels requisits i competències més demanades després d'analitzar entre 3 i 5 ofertes d'empreses del sector.</p>
-                
-                <div class="grid-container">
-                    <div class="grid-item">
-                        <h4>Empresa 1</h4>
-                        <p><strong>Nom de l'empresa:</strong> Empresa ABC</p>
-                        <p><strong>Oferta:</strong> Descripció breu</p>
-                        <p><strong>Requisits:</strong></p>
-                        <ul>
-                            <li>Requisit 1</li>
-                            <li>Requisit 2</li>
-                            <li>Requisit 3</li>
-                        </ul>
-                    </div>
-                    <div class="grid-item">
-                        <h4>Empresa 2</h4>
-                        <p><strong>Nom de l'empresa:</strong> Empresa XYZ</p>
-                        <p><strong>Oferta:</strong> Descripció breu</p>
-                        <p><strong>Requisits:</strong></p>
-                        <ul>
-                            <li>Requisit 1</li>
-                            <li>Requisit 2</li>
-                            <li>Requisit 3</li>
-                        </ul>
-                    </div>
-                    <div class="grid-item">
-                        <h4>Empresa 3</h4>
-                        <p><strong>Nom de l'empresa:</strong> Empresa 123</p>
-                        <p><strong>Oferta:</strong> Descripció breu</p>
-                        <p><strong>Requisits:</strong></p>
-                        <ul>
-                            <li>Requisit 1</li>
-                            <li>Requisit 2</li>
-                            <li>Requisit 3</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <h4>Resum dels requisits més demanats</h4>
-                <ul>
-                    <li>Requisit comú 1</li>
-                    <li>Requisit comú 2</li>
-                    <li>Requisit comú 3</li>
-                    <li>Requisit comú 4</li>
-                </ul>
+    </main>
+    
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 El Meu IPOP</p>
+            <div class="social-links">
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+                <a href="#">Email</a>
             </div>
-        </section>
+        </div>
+    </footer>
+
+    <script>
+        // Navegación móvil
+        const burger = document.querySelector('.burger');
+        const nav = document.querySelector('.nav-links');
         
-        <section id="itinerari">
-            <h2>Activitat 4: Itinerari formatiu</h2>
-            
-            <div class="card">
-                <h3>El meu camí formatiu</h3>
-                <p>Aquest és el camí que he dissenyat per aconseguir la feina que m'agrada.</p>
-                
-                <div class="timeline">
-                    <div class="timeline-item left">
-                        <div class="timeline-content">
-                            <h3>Etapa Actual</h3>
-                            <p>Descripció de la teva formació actual.</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item right">
-                        <div class="timeline-content">
-                            <h3>Curt termini (1-2 anys)</h3>
-                            <p>Formació reglada o cursos que vols fer en aquest període.</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item left">
-                        <div class="timeline-content">
-                            <h3>Mitjà termini (3-5 anys)</h3>
-                            <p>Especialitzacions o formació complementària que vols fer en aquest període.</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item right">
-                        <div class="timeline-content">
-                            <h3>Llarg termini (5-10 anys)</h3>
-                            <p>Projectes formatius de futur.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <h4>Formació complementària</h4>
-                <div class="grid-container">
-                    <div class="grid-item">
-                        <h5>Idiomes</h5>
-                        <ul>
-                            <li>Idioma 1: Nivell</li>
-                            <li>Idioma 2: Nivell</li>
-                        </ul>
-                    </div>
-                    <div class="grid-item">
-                        <h5>Cursos d'especialització</h5>
-                        <ul>
-                            <li>Curs 1</li>
-                            <li>Curs 2</li>
-                        </ul>
-                    </div>
-                    <div class="grid-item">
-                        <h5>Habilitats a desenvolupar</h5>
-                        <ul>
-                            <li>Habilitat 1</li>
-                            <li>Habilitat 2</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
+        burger.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
         
-        <section id="curriculum">
-            <h2>Activitat 5: Currículum competencial</h2>
-            
-            <div class="card">
-                <h3>El meu currículum</h3>
-                <p>Aquí pots incloure el teu currículum complet o una versió simplificada.</p>
-                
-                <div class="grid-container">
-                    <div class="grid-item">
-                        <h4>Dades personals</h4>
-                        <p><strong>Nom:</strong> El teu nom</p>
-                        <p><strong>Correu:</strong> exemple@correu.com</p>
-                        <p><strong>Telèfon:</strong> 600 000 000</p>
-                    </div>
-                    <div class="grid-item">
-                        <h4>Formació acadèmica</h4>
-                        <ul>
-                            <li>Titulació 1 (Centre, Anys)</li>
-                            <li>Titulació 2 (Centre, Anys)</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <h4>Experiència professional</h4>
-                <div class="timeline">
-                    <div class="timeline-item left">
-                        <div class="timeline-content">
-                            <h5>Empresa 1 (Dates)</h5>
-                            <p><strong>Càrrec:</strong> El teu càrrec</p>
-                            <p>Descripció de les tasques realitzades i competències desenvolupades.</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item right">
-                        <div class="timeline-content">
-                            <h5>Empresa 2 (Dates)</h5>
-                            <p><strong>Càrrec:</strong> El teu càrrec</p>
-                            <p>Descripció de les tasques realitzades i competències desenvolupades.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <h4>Competències</h4>
-                <div class="grid-container">
-                    <div class="grid-item">
-                        <h5>Competències tècniques</h5>
-                        <ul>
-                            <li>Competència 1</li>
-                            <li>Competència 2</li>
-                            <li>Competència 3</li>
-                        </ul>
-                    </div>
-                    <div class="grid-item">
-                        <h5>Competències transversals</h5>
-                        <ul>
-                            <li>Competència 1</li>
-                            <li>Competència 2</li>
-                            <li>Competència 3</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <a href="#" class="btn">Descarregar CV complet (PDF)</a>
-            </div>
-        </section>
-        
-        <section id="promocio">
-            <h2>Activitat 6: Pla de promoció personal</h2>
-            
-            <div class="card">
-                <h3>Estratègia de recerca de feina</h3>
-                <p>Aquí pots explicar les teves estratègies per trobar ocupació i promocionar-te professionalment.</p>
-                
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Estratègia</th>
-                            <th>Accions</th>
-                            <th>Temporització</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Estratègia 1</td>
-                            <td>
-                                <ul>
-                                    <li>Acció 1</li>
-                                    <li>Acció 2</li>
-                                </ul>
-                            </td>
-                            <td>1-3 mesos</td>
-                        </tr>
-                        <tr>
-                            <td>Estratègia 2</td>
-                            <td>
-                                <ul>
-                                    <li>Acció 1</li>
-                                    <li>Acció 2</li>
-                                </ul>
-                            </td>
-                            <td>3-6 mesos</td>
-                        </tr>
-                        <tr>
-                            <td>Estratègia 3</td>
-                            <td>
-                                <ul>
-                                    <li>Acció 1</li>
-                                    <li>Acció 2</li>
-                                </ul>
-                            </td>
-                            <td>6-12 mesos</td>
-                        </tr>
-                    </tbody>
-                </table>
-                
-                <h4>Presència online</h4>
-                <div class="grid-container">
-                    <div class="grid-item">
-                        <h5>LinkedIn</h5>
-                        <p>Estratègia per a LinkedIn i enllaç al perfil.</p>
-                    </div>
-                    <div class="grid-item">
-                        <h5>Portfolio digital</h5>
-                        <p>Descripció del teu portfolio i enllaç.</p>
-                    </div>
-                    <div class="grid-item">
-                        <h5>Altres
+        // Cerrar el menú al hacer clic en un enlace
+        const navLinks = document.querySelectorAll('.nav-links a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
